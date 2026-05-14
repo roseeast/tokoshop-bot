@@ -1,34 +1,92 @@
-# Bot TokoShop v1
+# 🛒 Bot TokoShop v1
 
-Selamat datang di repository resmi **Bot TokoShop v1** — bot Discord profesional yang dirancang khusus untuk membantu sistem penjualan digital berbasis ticket support dan fitur otomatis.
+[![Discord.js](https://img.shields.io/badge/Discord.js-v14-blue.svg)](https://discord.js.org/)
+[![Node.js](https://img.shields.io/badge/Node.js-18.x-green.svg)](https://nodejs.org/)
+[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Status](https://img.shields.io/badge/Status-Stable-brightgreen.svg)]()
 
----
-
-## Fitur Utama
-- Sistem Ticket Otomatis untuk pembelian produk
-- Katalog produk dengan tombol beli interaktif
-- Upload & verifikasi struk pembayaran
-- Notifikasi seller & log transaksi otomatis
-- Sistem pengumuman otomatis ke channel khusus
-- Command interaktif seperti `/status`, `/payment`, `/flashsale`, dan banyak lagi!
-- Anti Spam, Link Discord, Anti Fake Account.
-- Upload Testimonie
-- Custom Send Embed Message
-- Status Toko
-- Auto Promo
-- Dll
+> **Bot Discord Profesional untuk Sistem Penjualan Digital** — Solusi lengkap untuk mengelola toko digital Anda dengan sistem ticket, verifikasi pembayaran otomatis, dan fitur canggih lainnya.
 
 ---
 
-## 📌 Tentang Bot Ini
-Bot ini dikembangkan oleh **Club Community** sebagai solusi modern untuk penjualan produk digital melalui Discord. Setiap fitur dirancang dengan fokus pada efisiensi, kecepatan, dan pengalaman pengguna terbaik, baik untuk pembeli maupun seller.
+## 📋 Daftar Isi
+
+- [Tentang Bot](#-tentang-bot)
+- [Fitur Utama](#-fitur-utama)
+- [Teknologi yang Digunakan](#-teknologi-yang-digunakan)
+- [Instalasi](#-instalasi)
+- [Konfigurasi](#-konfigurasi)
+- [Command List](#-command-list)
+- [Struktur Proyek](#-struktur-proyek)
+- [Kontribusi](#-kontribusi)
+- [Lisensi](#-lisensi)
+- [Developer](#-developer)
 
 ---
 
-## 👨‍💻 Developer
-> **Nama**: Bot  
-> **Versi Bot**: v1  
-> **Platform**: Discord.js v14+  
-> **Bahasa**: JavaScript (Node.js)
+## 🚀 Tentang Bot
+
+**Bot TokoShop v1** adalah bot Discord profesional yang dirancang khusus untuk membantu sistem penjualan digital berbasis ticket support dan fitur otomatis. Dikembangkan dengan fokus pada efisiensi, kecepatan, dan pengalaman pengguna terbaik — baik untuk pembeli maupun seller.
+
+Bot ini cocok untuk:
+- 🛍️ Penjual produk digital (game, voucher, akun premium, dll.)
+- 👥 Komunitas dengan sistem membership berbayar
+- 🎫 Layanan support berbayar via ticket
+- 📦 Toko online dengan verifikasi pembayaran manual/otomatis
 
 ---
+
+## ⚡ Fitur Utama
+
+### 🎫 Sistem Ticket & Penjualan
+- ✨ Sistem Ticket otomatis untuk setiap pembelian produk
+- 📦 Katalog produk dengan tombol beli interaktif
+- 🧾 Upload & verifikasi struk pembayaran
+- 📢 Notifikasi real-time ke seller & log transaksi otomatis
+- 🏷️ Flash sale & promo otomatis
+
+### 🛡️ Keamanan & Anti-Spam
+- 🚫 Anti-spam pesan berulang
+- 🔗 Anti-link Discord ilegal
+- 🤖 Anti-fake account (minimal usia akun)
+- ✅ Verifikasi pembeli otomatis
+
+### 📢 Fitur Komunikasi
+- 📢 Pengumuman otomatis ke channel khusus
+- 📋 Custom embed message dengan tampilan profesional
+- ⭐ Upload testimoni pembeli
+- 🏪 Status toko (buka/tutup) dengan auto-response
+
+### 📊 Utility & Lainnya
+- 📊 Command interaktif: `/status`, `/payment`, `/flashsale`, `/promo` dll.
+- 🎨 Random color embed untuk variasi tampilan
+- 📝 Log aktivitas server
+- ⏰ Auto-promo terjadwal
+
+---
+
+## 🛠️ Teknologi yang Digunakan
+
+| Teknologi | Versi | Keterangan |
+|-----------|-------|-------------|
+| [Node.js](https://nodejs.org/) | 18.x+ | Runtime environment |
+| [Discord.js](https://discord.js.org/) | v14 | Library utama untuk Discord API |
+| [dotenv](https://www.npmjs.com/package/dotenv) | latest | Manajemen environment variables |
+
+---
+
+## 💻 Instalasi
+
+### Prasyarat
+
+- Node.js 18.x atau lebih baru
+- NPM atau Yarn
+- Discord Bot Token ([Dapatkan di Discord Developer Portal](https://discord.com/developers/applications))
+- Server Discord dengan izin administrator
+
+### Langkah Instalasi
+
+1. **Clone repository**
+```bash
+git clone https://github.com/roseeast/tokoshop-bot.git
+cd tokoshop-bot
