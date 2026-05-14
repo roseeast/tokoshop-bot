@@ -1,0 +1,42 @@
+[
+  {
+    "type": "produk",
+    "name": "💎 100 Diamond FF",
+    "chance": 20
+  },
+  {
+    "type": "produk",
+    "name": "🎮 50 UC PUBG",
+    "chance": 20
+  },
+  {
+    "type": "saldo",
+    "name": "Rp5.000 Saldo",
+    "chance": 15
+  },
+  {
+    "type": "diskon",
+    "name": "🎟️ Diskon 20%",
+    "chance": 15
+  },
+  {
+    "type": "produk",
+    "name": "🔥 1 GB RDP 1 Hari",
+    "chance": 10
+  },
+  {
+    "type": "kosong",
+    "name": "❌ Tidak Dapat Apa-apa",
+    "chance": 20
+  },
+  {
+    "type": "Kosong",
+    "name": "DISKON",
+    "chance": 1
+  },
+  {
+    "type": "Saldo",
+    "name": "200jt",
+    "chance": 1
+  }
+]

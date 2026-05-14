@@ -1,0 +1,29 @@
+{
+  "token": "",
+  "owner": "",
+  "clientId": "",
+    "guildId":"",
+    "statusChannelId": "",
+    "TESTIMONI_CHANNEL_ID": "",
+    "SELLER_ROLE_ID": "",
+    "RATING_CHANNEL_ID": "",
+    "BUYER_ROLE_ID": "",
+    "ADMIN_ROLE_ID": "",
+    "CategoryTicketId": "",
+    "ChannelLogTicketId": "", 
+    "PRODUCT_CHANNEL_ID": "",
+"VERIFY_CHANNEL_ID": "",
+"VERIFY_SUBSCRIBE_ID":"",
+  "SUBSCRIBER_ROLE_ID": "",
+  "LOG_CHANNEL_ID": "",
+  "VERIFIED_ROLE_ID": "",
+"openaiApiKey": "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",
+  "CHANNEL_TOKO_ID": "",
+ "welcomeChannelId": "",
+  "goodbyeChannelId": "",
+  "welcomeBackground": "",
+  "goodbyeBackground": "",
+    "developerIds": [""] 
+
+}
+  

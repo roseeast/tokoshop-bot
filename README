@@ -1,0 +1,34 @@
+# Bot TokoShop v1
+
+Selamat datang di repository resmi **Bot TokoShop v1** — bot Discord profesional yang dirancang khusus untuk membantu sistem penjualan digital berbasis ticket support dan fitur otomatis.
+
+---
+
+## Fitur Utama
+- Sistem Ticket Otomatis untuk pembelian produk
+- Katalog produk dengan tombol beli interaktif
+- Upload & verifikasi struk pembayaran
+- Notifikasi seller & log transaksi otomatis
+- Sistem pengumuman otomatis ke channel khusus
+- Command interaktif seperti `/status`, `/payment`, `/flashsale`, dan banyak lagi!
+- Anti Spam, Link Discord, Anti Fake Account.
+- Upload Testimonie
+- Custom Send Embed Message
+- Status Toko
+- Auto Promo
+- Dll
+
+---
+
+## 📌 Tentang Bot Ini
+Bot ini dikembangkan oleh **Club Community** sebagai solusi modern untuk penjualan produk digital melalui Discord. Setiap fitur dirancang dengan fokus pada efisiensi, kecepatan, dan pengalaman pengguna terbaik, baik untuk pembeli maupun seller.
+
+---
+
+## 👨‍💻 Developer
+> **Nama**: Bot  
+> **Versi Bot**: v1  
+> **Platform**: Discord.js v14+  
+> **Bahasa**: JavaScript (Node.js)
+
+---
