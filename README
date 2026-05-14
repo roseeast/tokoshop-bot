@@ -1,92 +1,106 @@
 # 🛒 Bot TokoShop v1
 
-[![Discord.js](https://img.shields.io/badge/Discord.js-v14-blue.svg)](https://discord.js.org/)
-[![Node.js](https://img.shields.io/badge/Node.js-18.x-green.svg)](https://nodejs.org/)
+<div align="center">
+
+[![Discord.js](https://img.shields.io/badge/Discord.js-v14-5865F2?logo=discord&logoColor=white)](https://discord.js.org/)
+[![Node.js](https://img.shields.io/badge/Node.js-18.x-339933?logo=node.js&logoColor=white)](https://nodejs.org/)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Status](https://img.shields.io/badge/Status-Stable-brightgreen.svg)]()
+[![Status](https://img.shields.io/badge/Status-Online-brightgreen)]()
 
-> **Bot Discord Profesional untuk Sistem Penjualan Digital** — Solusi lengkap untuk mengelola toko digital Anda dengan sistem ticket, verifikasi pembayaran otomatis, dan fitur canggih lainnya.
-
----
-
-## 📋 Daftar Isi
-
-- [Tentang Bot](#-tentang-bot)
-- [Fitur Utama](#-fitur-utama)
-- [Teknologi yang Digunakan](#-teknologi-yang-digunakan)
-- [Instalasi](#-instalasi)
-- [Konfigurasi](#-konfigurasi)
-- [Command List](#-command-list)
-- [Struktur Proyek](#-struktur-proyek)
-- [Kontribusi](#-kontribusi)
-- [Lisensi](#-lisensi)
-- [Developer](#-developer)
+</div>
 
 ---
 
-## 🚀 Tentang Bot
+<div align="center">
+  <img src="https://cdn-icons-png.flaticon.com/512/5404/5404012.png" width="120" alt="Bot Logo">
+  
+  > **Bot Discord Profesional untuk Sistem Penjualan Digital**
+  
+  Solusi lengkap untuk mengelola toko digital Anda dengan sistem ticket, 
+  verifikasi pembayaran otomatis, dan fitur canggih lainnya.
+</div>
 
-**Bot TokoShop v1** adalah bot Discord profesional yang dirancang khusus untuk membantu sistem penjualan digital berbasis ticket support dan fitur otomatis. Dikembangkan dengan fokus pada efisiensi, kecepatan, dan pengalaman pengguna terbaik — baik untuk pembeli maupun seller.
+---
 
-Bot ini cocok untuk:
-- 🛍️ Penjual produk digital (game, voucher, akun premium, dll.)
-- 👥 Komunitas dengan sistem membership berbayar
-- 🎫 Layanan support berbayar via ticket
-- 📦 Toko online dengan verifikasi pembayaran manual/otomatis
+## 📸 Preview Bot
+
+<div align="center">
+  <img src="https://via.placeholder.com/800x400?text=Screenshot+Testimoni+Command" width="80%" alt="Bot Preview">
+  <br>
+  <em>Contoh tampilan command /proof</em>
+</div>
 
 ---
 
 ## ⚡ Fitur Utama
 
+<table>
+<tr>
+<td width="50%">
+
 ### 🎫 Sistem Ticket & Penjualan
-- ✨ Sistem Ticket otomatis untuk setiap pembelian produk
-- 📦 Katalog produk dengan tombol beli interaktif
-- 🧾 Upload & verifikasi struk pembayaran
-- 📢 Notifikasi real-time ke seller & log transaksi otomatis
+- ✨ Sistem Ticket otomatis
+- 📦 Katalog produk interaktif
+- 🧾 Verifikasi struk pembayaran
+- 📢 Notifikasi real-time ke seller
 - 🏷️ Flash sale & promo otomatis
+
+</td>
+<td width="50%">
 
 ### 🛡️ Keamanan & Anti-Spam
 - 🚫 Anti-spam pesan berulang
 - 🔗 Anti-link Discord ilegal
-- 🤖 Anti-fake account (minimal usia akun)
+- 🤖 Anti-fake account
 - ✅ Verifikasi pembeli otomatis
 
+</td>
+</tr>
+<tr>
+<td width="50%">
+
 ### 📢 Fitur Komunikasi
-- 📢 Pengumuman otomatis ke channel khusus
-- 📋 Custom embed message dengan tampilan profesional
+- 📢 Pengumuman otomatis
+- 📋 Custom embed message
 - ⭐ Upload testimoni pembeli
-- 🏪 Status toko (buka/tutup) dengan auto-response
+- 🏪 Status toko dengan auto-response
+
+</td>
+<td width="50%">
 
 ### 📊 Utility & Lainnya
-- 📊 Command interaktif: `/status`, `/payment`, `/flashsale`, `/promo`
-- 🎨 Random color embed untuk variasi tampilan
+- 📊 Command interaktif: `/status`, `/payment`
+- 🎨 Random color embed
 - 📝 Log aktivitas server
 - ⏰ Auto-promo terjadwal
 
----
-
-## 🛠️ Teknologi yang Digunakan
-
-| Teknologi | Versi | Keterangan |
-|-----------|-------|-------------|
-| [Node.js](https://nodejs.org/) | 18.x+ | Runtime environment |
-| [Discord.js](https://discord.js.org/) | v14 | Library utama untuk Discord API |
-| [dotenv](https://www.npmjs.com/package/dotenv) | latest | Manajemen environment variables |
+</td>
+</tr>
+</table>
 
 ---
 
-## 💻 Instalasi
+## 🚀 Quick Start
 
 ### Prasyarat
 
-- Node.js 18.x atau lebih baru
-- NPM atau Yarn
-- Discord Bot Token ([Dapatkan di Discord Developer Portal](https://discord.com/developers/applications))
+- Node.js 18.x+
+- Discord Bot Token ([Dapatkan di sini](https://discord.com/developers/applications))
 - Server Discord dengan izin administrator
 
-### Langkah Instalasi
+### Instalasi 1 Menit
 
-1. **Clone repository**
 ```bash
+# Clone repository
 git clone https://github.com/roseeast/tokoshop-bot.git
 cd tokoshop-bot
+
+# Install dependencies
+npm install
+
+# Buat file konfigurasi
+cp .env.example .env
+# Edit .env dengan token bot-mu
+
+# Jalankan bot
+npm start
