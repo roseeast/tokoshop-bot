@@ -22,65 +22,46 @@
 
 ---
 
-## 📸 Preview Bot
-
-<div align="center">
-  <img src="https://via.placeholder.com/800x400?text=Screenshot+Testimoni+Command" width="80%" alt="Bot Preview">
-  <br>
-  <em>Contoh tampilan command /proof</em>
-</div>
-
----
-
 ## ⚡ Fitur Utama
 
-<table>
-<tr>
-<td width="50%">
-
 ### 🎫 Sistem Ticket & Penjualan
-- ✨ Sistem Ticket otomatis
-- 📦 Katalog produk interaktif
-- 🧾 Verifikasi struk pembayaran
-- 📢 Notifikasi real-time ke seller
+- ✨ Sistem Ticket otomatis untuk setiap pembelian produk
+- 📦 Katalog produk dengan tombol beli interaktif
+- 🧾 Upload & verifikasi struk pembayaran
+- 📢 Notifikasi real-time ke seller & log transaksi otomatis
 - 🏷️ Flash sale & promo otomatis
-
-</td>
-<td width="50%">
 
 ### 🛡️ Keamanan & Anti-Spam
 - 🚫 Anti-spam pesan berulang
 - 🔗 Anti-link Discord ilegal
-- 🤖 Anti-fake account
+- 🤖 Anti-fake account (minimal usia akun)
 - ✅ Verifikasi pembeli otomatis
 
-</td>
-</tr>
-<tr>
-<td width="50%">
-
 ### 📢 Fitur Komunikasi
-- 📢 Pengumuman otomatis
-- 📋 Custom embed message
+- 📢 Pengumuman otomatis ke channel khusus
+- 📋 Custom embed message dengan tampilan profesional
 - ⭐ Upload testimoni pembeli
-- 🏪 Status toko dengan auto-response
-
-</td>
-<td width="50%">
+- 🏪 Status toko (buka/tutup) dengan auto-response
 
 ### 📊 Utility & Lainnya
-- 📊 Command interaktif: `/status`, `/payment`
-- 🎨 Random color embed
+- 📊 Command interaktif: `/status`, `/payment`, `/flashsale`, `/promo`
+- 🎨 Random color embed untuk variasi tampilan
 - 📝 Log aktivitas server
 - ⏰ Auto-promo terjadwal
 
-</td>
-</tr>
-</table>
+---
+
+## 🛠️ Teknologi yang Digunakan
+
+| Teknologi | Versi | Keterangan |
+|-----------|-------|-------------|
+| Node.js | 18.x+ | Runtime environment |
+| Discord.js | v14 | Library utama untuk Discord API |
+| dotenv | latest | Manajemen environment variables |
 
 ---
 
-## 🚀 Quick Start
+## 🚀 Instalasi
 
 ### Prasyarat
 
@@ -88,7 +69,7 @@
 - Discord Bot Token ([Dapatkan di sini](https://discord.com/developers/applications))
 - Server Discord dengan izin administrator
 
-### Instalasi 1 Menit
+### Langkah Instalasi
 
 ```bash
 # Clone repository
@@ -100,7 +81,7 @@ npm install
 
 # Buat file konfigurasi
 cp .env.example .env
-# Edit .env dengan token bot-mu
 
+# Edit .env dengan token bot-mu
 # Jalankan bot
 npm start
